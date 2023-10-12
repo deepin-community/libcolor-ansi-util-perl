@@ -1,5 +1,37 @@
-template-repository (1.0-1) unstable; urgency=medium
+libcolor-ansi-util-perl (0.164-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Import upstream version 0.164.
+  * Update years of upstream copyright.
+  * Update test and runtime dependencies.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Fri, 12 Jun 2020 13:53:37 +0200
+
+libcolor-ansi-util-perl (0.163-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.163.
+  * Update years of upstream copyright.
+  * Add new dependency: libcolor-rgb-util-perl.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.1.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 12 Nov 2019 17:54:46 +0100
+
+libcolor-ansi-util-perl (0.162-2) unstable; urgency=medium
+
+  * Team upload.
+  * Declare compliance with Debian Policy 4.4.0.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 11 Jul 2019 18:52:54 +0200
+
+libcolor-ansi-util-perl (0.162-1) unstable; urgency=low
+
+  * Initial release (Closes: #927371).
+
+ -- Laurent Baillet <laurent.baillet@gmail.com>  Thu, 18 Apr 2019 13:43:07 +0000
